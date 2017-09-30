@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Work In Progress</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript" src="15-puzzle.js"></script>
+    <link rel="shortcut icon" type="image/svg" href="favicon.svg"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85407828-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+  <body>
+    <style>
+     h1 {
+        color: #124e78;
+        font-family: 'Ubuntu', sans-serif;
+     }
+     body {
+        background-color: #FFFFEF;
+        text-align: center;
+     }
+     p {
+     font-family: font-family: 'Open Sans', sans-serif;
+     }
+#puzzle-table{
+	border: 10px solid black;
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 250%;
+}
+.blank {
+	background-color: black;
+}
+#shuffle-board{
+	margin-top: 15px;
+	width: 200px;
+	font-size: 1.3em;
+}
+td {
+	height: 25%;
+	width: 25%;
+}
+    </style>
+    <h1> Welcome! The site is currently under construction </h1>
+    <p>In the meantime, feel free to check out one of the most recent projects I have worked on below, in collaboration with <a href="https://www.linkedin.com/in/earlfong">Earl Fong</a>
+    <br>This game is played by changing the order of the tiles until you get the tile numbers in order from 1-15 with the blank tile last</p>
+<table id="puzzle-table" border="1">
+	<tr>
+		<td id="slot-1">1</td><td id="slot-2">2</td><td id="slot-3">3</td><td id="slot-4">4</td>
+	</tr>
+	<tr>
+		<td id="slot-5">5</td><td id="slot-6">6</td><td id="slot-7">7</td><td id="slot-8">8</td>
+	</tr>
+	<tr>
+		<td id="slot-9">9</td><td id="slot-10">10</td><td id="slot-11">11</td><td id="slot-12">12</td>
+	</tr>
+	<tr>
+		<td id="slot-13">13</td><td id="slot-14">14</td><td id="slot-15">15</td><td id="slot-16">0</td>
+	</tr>
+</table>
+<button id="shuffle-board">Shuffle board</button>
+<p>If you'd like to learn more about me, check out my <a href="https://www.linkedin.com/in/delacruzluis">Linkedin</a></p>
+  </body>
+</html>
+
